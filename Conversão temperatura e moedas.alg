@@ -26,7 +26,7 @@ escreval("")
 //processamento de dados
 
 repita
-   se op = "1" entao
+   se op = 1 entao
       escreval("Quantos graus Fahrenheit?")
       leia (fahr)
       resul1 <- (fahr - 32)*5/9
@@ -35,7 +35,7 @@ repita
       escreval ("Deseja realizar nova conversâo? Digite a opção desejada ou 5 para sair")
 
    senao
-        se op = "2" entao
+        se op = 2 entao
       escreval("Quantos graus Celcius?")
       leia (cel)
       resul2 <- ((cel * (9/5)) + 32)
@@ -44,7 +44,7 @@ repita
       escreval ("Deseja realizar nova conversâo? Digite a opção desejada ou 5 para sair")
 
    senao
-        se op = "3" entao
+        se op = 3 entao
       escreval("Qual a cotação do dólar atual?")
       leia (cota)
       escreval("Qual valor quer converter?")
@@ -53,7 +53,7 @@ repita
       escreval("_______________________________________")
       escreval ("Deseja realizar nova conversâo? Digite a opção desejada ou 5 para sair")
 
-   senao  op = "4" entao
+   senao  op = 4 entao
       escreval("Qual a cotação do dólar atual?")
       leia (cota)
       escreval("Qual valor quer converter")
@@ -63,9 +63,10 @@ repita
       escreval ("Deseja realizar nova conversâo? Digite a opção desejada ou 5 para sair")
       fimse
       fimse
+      fimse
 fimse
       leia (op)
-      ate op = "5"
+      ate op = 5
 
 
 fimalgoritmo
